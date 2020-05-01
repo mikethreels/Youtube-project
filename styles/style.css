@@ -1,0 +1,165 @@
+/* General styles*/
+body{
+    color: #515151;
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-size: 15px;
+}
+main{
+    float: left;
+    width: 65%;
+}
+
+/*Header*/
+header{ 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: sticky;
+}
+header img{
+    width: auto;
+    height: 20px;
+    margin-left: 15px;
+}
+.SearchBarContainer{
+    width: 580px;
+}
+#SearchBar{
+    display: grid;
+    width: 100%;
+    grid-template-columns: 4fr 1fr;
+    height: 100%;
+}
+#SearchBar input{   
+    padding: 0px;
+    height: 25px;
+}
+button{
+    float: right; 
+    height: 29px;
+    width: 70px;
+    border-width: 0px;
+}
+#SearchBtn{
+    border-width: 2px;
+}
+
+/*Video section*/
+iframe {
+     padding-top: 50px;
+     display: block;
+     margin: auto;
+     width:95%;
+     min-height:400px;
+     border-width: 0px;
+}
+.Title{
+    margin-left: 60px;
+}
+.Descripcion{
+    align-items: center;
+    width: 90%;
+    margin-bottom: 60px;
+    margin-left: 35px;
+}
+ #account{
+     border-radius: 50%;
+     margin-top: 10px;
+ }
+.Info{
+     display: grid;
+     grid-template-columns: 4fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+ }
+.socialButtons{
+     height: 25px;
+     width: 20px;
+     height: 20px;
+ }
+ .User{
+     display: grid;
+     grid-template-columns: 1fr 3fr 8fr 1fr;
+ }
+ #subscribe{
+     color: #fff;
+     background-color: rgb(204, 0, 0);
+ }
+
+ 
+/*Aside*/
+aside{
+    float: right;
+    width: 30%;
+    padding-top: 50px;
+    padding-left: 15px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 14px;
+}
+aside p{
+    margin: 5px;
+     min-width: 180px;
+    max-width: 200px;
+}
+aside div{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-bottom: 1px solid #cfcfcf;
+}
+aside div img{
+    padding-bottom: 10px;
+    width: 153px;
+    height: 86px;
+    cursor:pointer;
+}
+
+/*Comments section*/
+.comments{
+    display: flex;
+    flex-direction: row;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 15px;
+}
+#SectionComments{
+    float: left;
+    padding-left: 70px;
+    padding-top: 0px;
+}
+section img{
+    padding: 15px;
+    width: 40px;
+    height: 40px;    
+    cursor: pointer;
+}
+.likes{
+    display: flex;
+    flex-direction: row;
+}
+.likes img
+{
+    padding: 10px;
+    width: 15px;
+    height: 15px;
+}
+
+/* Responsive section*/
+@media (max-width: 1000px){
+    aside p{
+        max-width: 90%;
+    }   
+    main{
+        width: 100%;
+    }
+    aside {
+        width: 95%;
+    }
+    iframe{
+        max-width: 100%;
+        max-height:100%;
+    }
+    #SectionComments{
+        padding: 5px;
+    }
+}
+
+
