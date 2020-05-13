@@ -7,7 +7,7 @@ This project consists a copy of a youtube page including video and images.
 
 # live demo:
 
-![live demo](https://mikethreels.github.io/Youtube-project/)
+[live demo link](https://mikethreels.github.io/Youtube-project/)
 
 # Built With:
 
